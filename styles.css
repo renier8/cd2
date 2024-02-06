@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    background-color: #ecebeb; /* Set your desired background color */
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  #root {
+    height: 100vh; /* Ensure the app takes up the full height of the viewport */
+  }
+
+.diamond-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-row-gap: 1em;
+    place-items: center;
+}
+
+.diamond-card {
+    max-width: 380px;
+    height: 100%;
+    padding: 2em;
+    border-radius: 8px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+hr {
+    color: #ecebeb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 10px;
+    color: rgb(119, 119, 119);
+    font-size: 0.85em;
+}
+
+header {
+    display: flex;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
